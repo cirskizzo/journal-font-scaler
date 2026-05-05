@@ -1,0 +1,37 @@
+{
+  "id": "journal-font-scaler",
+  "title": "Journal Font Scaler",
+  "description": "Per-user, persistent zoom for Journal Entry content in Foundry VTT v14. Works on regular and floating windows.",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "cirskizzo",
+      "url": "https://github.com/cirskizzo"
+    }
+  ],
+  "esmodules": [
+    "scripts/journal-font-scaler.js"
+  ],
+  "styles": [
+    "styles/journal-font-scaler.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "it",
+      "name": "Italiano",
+      "path": "lang/it.json"
+    }
+  ],
+  "url": "https://github.com/cirskizzo/journal-font-scaler",
+  "manifest": "https://github.com/cirskizzo/journal-font-scaler/releases/latest/download/module.json",
+  "download": "https://github.com/cirskizzo/journal-font-scaler/releases/latest/download/module.zip"
+}

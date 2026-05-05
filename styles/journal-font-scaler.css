@@ -1,0 +1,16 @@
+/* Journal Font Scaler
+ * Scales the journal page content using a CSS custom property set by JS
+ * on the outer journal sheet element. The sidebar is intentionally excluded
+ * (selector is scoped to .journal-entry-content only).
+ */
+
+.application.journal-sheet .journal-entry-content {
+  font-size: calc(1em * var(--jfs-scale, 1));
+  transition: font-size 0.1s ease-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .application.journal-sheet .journal-entry-content {
+    transition: none;
+  }
+}
