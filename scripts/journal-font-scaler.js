@@ -1,4 +1,4 @@
-const MODULE_ID = "journal-font-scaler";
+const MODULE_ID = "journal-scaler-plus";
 const SETTING_SCALE = "globalScale";
 const SCALE_MIN = 0.5;
 const SCALE_MAX = 3.0;
@@ -9,7 +9,7 @@ const SCALE_VAR = "--jfs-scale";
 const BTN_MARKER = "data-jfs-btn";
 const WHEEL_MARKER = "data-jfs-wheel";
 const CSS_MARKER = "data-jfs-css";
-const CSS_HREF = "/modules/journal-font-scaler/styles/journal-font-scaler.css";
+const CSS_HREF = "/modules/journal-scaler-plus/styles/journal-font-scaler.css";
 const POST_MOVE_DELAY_MS = 100;
 
 const clampScale = (v) => {

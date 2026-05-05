@@ -1,4 +1,4 @@
-# Journal Font Scaler
+# Journal Scaler Plus
 
 A small Foundry VTT module that lets each user zoom Journal Entry content
 independently, persistently, and without affecting Foundry's global font.
@@ -35,7 +35,7 @@ https://github.com/cirskizzo/journal-font-scaler/releases/latest/download/module
 
 Download the latest release from
 [Releases](https://github.com/cirskizzo/journal-font-scaler/releases),
-extract into your Foundry `Data/modules/journal-font-scaler/` directory.
+extract into your Foundry `Data/modules/journal-scaler-plus/` directory.
 
 Then enable the module in your world (*Game Settings → Manage Modules*).
 
