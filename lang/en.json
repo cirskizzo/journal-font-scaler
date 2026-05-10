@@ -1,5 +1,22 @@
 {
   "JFS.ButtonZoomIn": "Zoom in",
   "JFS.ButtonZoomOut": "Zoom out",
-  "JFS.ButtonReset": "Reset to 100%"
+  "JFS.ButtonReset": "Reset to 100%",
+
+  "JSP.ExportToMarkdown": "Export to Markdown",
+
+  "JSP.SettingExportMinimumRole": "Minimum role allowed to export",
+  "JSP.SettingExportMinimumRoleHint": "Users with this role or higher can export journals to Markdown. They also need at least Observer permission on the specific journal.",
+  "JSP.RolePlayer": "Player",
+  "JSP.RoleTrusted": "Trusted Player",
+  "JSP.RoleAssistant": "Assistant GM",
+  "JSP.RoleGamemaster": "Gamemaster",
+
+  "JSP.SettingDefaultDownloadFolder": "Default download folder",
+  "JSP.SettingDefaultDownloadFolderHint": "Full path used as a suggestion in the save dialog (e.g. /Users/yourname/Dropbox/ObsidianVault). Leave empty to use the browser default. The system save dialog will always appear due to security restrictions.",
+
+  "JSP.NotificationExportInProgress": "Exporting journal to Markdown...",
+  "JSP.NotificationExportComplete": "Exported {exportedCount} of {totalCount} pages — {imageCount} image(s) bundled, {imageFailedCount} failed, {skippedCount} non-text/non-image pages skipped",
+  "JSP.NotificationExportError": "Export failed: {error}",
+  "JSP.NotificationNoTextPages": "No text pages to export in this journal"
 }

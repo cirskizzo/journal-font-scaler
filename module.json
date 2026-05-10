@@ -2,7 +2,7 @@
   "id": "journal-scaler-plus",
   "title": "Journal Scaler Plus",
   "description": "Per-user, persistent zoom for Journal Entry content in Foundry VTT v14. Works on regular and floating windows.",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "compatibility": {
     "minimum": "13",
     "verified": "14"
@@ -13,8 +13,13 @@
       "url": "https://github.com/cirskizzo"
     }
   ],
+  "scripts": [
+    "scripts/lib/turndown.js",
+    "scripts/lib/jszip.js"
+  ],
   "esmodules": [
-    "scripts/journal-font-scaler.js"
+    "scripts/journal-font-scaler.js",
+    "scripts/export-markdown.js"
   ],
   "styles": [
     "styles/journal-font-scaler.css"

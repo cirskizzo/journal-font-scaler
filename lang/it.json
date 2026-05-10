@@ -1,5 +1,22 @@
 {
   "JFS.ButtonZoomIn": "Ingrandisci",
   "JFS.ButtonZoomOut": "Riduci",
-  "JFS.ButtonReset": "Reimposta al 100%"
+  "JFS.ButtonReset": "Reimposta al 100%",
+
+  "JSP.ExportToMarkdown": "Esporta in Markdown",
+
+  "JSP.SettingExportMinimumRole": "Ruolo minimo abilitato all'export",
+  "JSP.SettingExportMinimumRoleHint": "Gli utenti con questo ruolo o superiore possono esportare i journal in Markdown. Devono comunque avere almeno il permesso Observer sul singolo journal.",
+  "JSP.RolePlayer": "Giocatore",
+  "JSP.RoleTrusted": "Giocatore Fidato",
+  "JSP.RoleAssistant": "Assistente GM",
+  "JSP.RoleGamemaster": "Game Master",
+
+  "JSP.SettingDefaultDownloadFolder": "Cartella di download predefinita",
+  "JSP.SettingDefaultDownloadFolderHint": "Path completo da suggerire nel dialogo di salvataggio (es. /Users/tuonome/Dropbox/ObsidianVault). Lascia vuoto per usare la cartella di default del browser. Il dialogo di sistema apparirà comunque per ragioni di sicurezza.",
+
+  "JSP.NotificationExportInProgress": "Esportazione del journal in Markdown...",
+  "JSP.NotificationExportComplete": "Esportate {exportedCount} di {totalCount} pagine — {imageCount} immagine/i incluse, {imageFailedCount} fallite, {skippedCount} pagine non-testo/non-immagine saltate",
+  "JSP.NotificationExportError": "Export fallito: {error}",
+  "JSP.NotificationNoTextPages": "Nessuna pagina di testo da esportare in questo journal"
 }
